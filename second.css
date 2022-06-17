@@ -1,0 +1,79 @@
+
+
+body{
+  background: black;
+}
+
+p{ color:paleturquoise;
+	text-align:center;
+   letter-spacing: 2px; 
+   border: 5px;
+   border-color: red;
+   margin-left: 425px;
+   /*border-width:300px;*/
+   width: 40%;
+   border-style: dashed; 
+   font-size:20px;     
+   font-family:cursive;
+   padding-top: 10px;
+   font-weight:bold; 
+   
+ }
+ p:hover{
+ 	color:darkblue;
+    background: yellow;
+          }
+
+          
+
+
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9 {
+    border: 5px;
+    border-style: solid;
+    border-color: darkred;
+    background: white;
+    height: 200px;
+    width: 200px;
+    float: left; 
+    font-size: 180px;
+    color: rebeccapurple;
+    text-align: center;
+
+}
+
+#a1,#a4,#a7{
+  margin-left: 420px;
+  clear: left;
+  border-left: none;
+}
+
+#a3,#a6,#a9 {
+  border-right: none;
+} 
+
+#a1,#a2,#a3{
+  border-top: none;
+}
+
+#a7,#a8,#a9{
+  border-bottom: none;
+  margin-bottom: 50px;
+}
+
+#a1:hover,#a2:hover,#a3:hover,#a7:hover,#a8:hover,#a9:hover
+{
+   background: yellow; 
+}
+#a4:hover,#a5:hover,#a6:hover
+{
+   background: orange;
+}
+#a7:hover,#a8:hover,#a9:hover
+{
+   background: palegreen;
+}
+
+
+
+
+
